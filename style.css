@@ -57,3 +57,33 @@ img, video {
     max-width: 100%;
     display: block;
 }
+
+/* Style for the navigation bar */
+nav {
+    background-color: #333;      /* Dark background */
+    padding: 10px 0;             /* Vertical padding */
+    text-align: center; 
+    border-radius: 10px; 
+
+}
+
+/* Style for nav links */
+nav a {
+    color: white;                /* White text */
+    text-decoration: none;       /* Remove underline */
+    margin: 0 20px;              /* Space between links */
+    font-size: 18px;             /* Bigger text */
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+nav a:hover {
+    color: #ff9800;              /* Change color on hover */
+}
+
+/* Active/current page style (optional) */
+nav a.active {
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 2px;
+}
